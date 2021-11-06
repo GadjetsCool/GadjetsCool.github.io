@@ -4,7 +4,7 @@ paypal.Buttons({
         return actions.order.create({
           purchase_units: [{
             amount: {
-              value: '0.05'
+              value: '18.99'
             }
           }]
         });
