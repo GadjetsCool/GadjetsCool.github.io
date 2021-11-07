@@ -1,29 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Payement - WirelessCharger</title>
-	<p>--> back to shop <a href="https://gadjetscool.github.io/#work" target="_blank">here</a>
-    <H1><u>Payement - WirelessCharger (blue)</u></H1>
-	<br>
-	<br>
-	<H2>description:utilise et styler
-	<br>
-	Utilisation:Poser juste ton telephone pour le chargerㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤPayement Securise Par Paypal
-	</H2>
-	<br><br>
-	<b><p>--------------------------------------------------------------------------------------------------</p>
-	<H1>8€75</b></H1>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payement - WirelessCharger</title>
+  <link rel="stylesheet" href="assets/css/product.css">
 </head>
 <body>
-        <div id="paypal-button-container"></div>
-    <script src="https://www.paypal.com/sdk/js?client-id=Aa9lUCsM5y4YgO4Zz7x0WgvZs_3_Jvk8YP6cqSsuRnXA63ZdkxaWoZyC1wF2MeMy6tiaLXSb3kWuSvd4&currency=EUR"></script>
-    <script src="paypal.js"></script> 
-		<p>-reduction de -70% temporaire sur ce produit </p>
-    
 
+<div class="container">
+
+  <div class="left">
+    <div class="product-pic">
+      <img src="assets/img/product-img.png" alt="">
+    </div>
+    <div class="gallery">
+      <img src="assets/img/product-img-2.png" alt="">
+      <img src="assets/img/product-img-3.png" alt="">
+      <img src="assets/img/product-img-4.png" alt="">
+      <img src="assets/img/product-img-5.png" alt="">
+    </div>
+  </div>
+
+  <div class="right">
+    <div class="bloc">
+      <h1>WirelessCharger (blue)</h1>
+
+      <div class="distributor">
+      </div>
+
+      <div class="price-infos">
+        <div class="price">
+          <p><span>€</span>8.75</p>
+        </div>
+        <div class="tax">
+          <span>reduction de 50% temporaire</span> 
+          <span></span>
+        </div>
+      </div>
+
+      <div class="description">
+        <p>utile et styler</p>
+		<br>
+        <p>Pose juste ton telephone dessus pour le charger</p>
+      </div>
+
+      <div id="paypal-payment-button"></div>
     
+    </div>
+  </div>
+</div>
+
+<!-- SI TU SOUHAITES VOIR LE BOUTON PAYPAL, IL FAUT REMPLACER "TON_ID_ICI" PAR TON CLIENT-ID PAYPAL AFIN DE RECEVOIR LES PAIEMENTS-->
+<script src="https://www.paypal.com/sdk/js?client-id=Aa9lUCsM5y4YgO4Zz7x0WgvZs_3_Jvk8YP6cqSsuRnXA63ZdkxaWoZyC1wF2MeMy6tiaLXSb3kWuSvd4&currency=EUR"></script>
+<script src="paypal.js"></script>
 </body>
 </html>
